@@ -73,6 +73,8 @@ export function Hero() {
             <div className="flex flex-wrap gap-4 pt-4">
               <a
                 href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#00ff9d] text-[#050510] font-mono text-sm font-bold rounded-md hover:bg-[#00ff9d]/90 transition-colors"
               >
                 <FileText className="w-4 h-4" />
