@@ -2,7 +2,7 @@
 
 Personal portfolio website for Chandrasekar Vasan — Full Stack Developer, Site Reliability Engineer, and System Administrator.
 
-Live at: [chandru.vercel.app](https://chandru.vercel.app)
+Live at: https://v0-chandru-portfolio.vercel.app/
 
 ## Tech Stack
 
