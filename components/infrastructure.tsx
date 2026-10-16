@@ -4,13 +4,25 @@ import { useEffect, useRef, useState } from "react"
 
 const tools = [
   { code: "LX", label: "Linux Admin", subtitle: "Rocky · Ubuntu · multi-distro", color: "#00ff9d" },
-  { code: "DK", label: "Docker", subtitle: "containers · compose · deploy", color: "#00c8ff" },
+  { code: "DK", label: "Docker", subtitle: "containers · APIs · CI checks", color: "#00c8ff" },
   { code: "PG", label: "PostgreSQL", subtitle: "Mongo · MySQL · Elastic", color: "#ff6b35" },
-  { code: "PM", label: "Prometheus", subtitle: "metrics · alerting · grafana", color: "#a855f7" },
+  { code: "PM", label: "Prometheus", subtitle: "node_exporter · Alertmanager · PagerDuty", color: "#a855f7" },
   { code: "SH", label: "Shell Scripting", subtitle: "automation · cron · bash", color: "#00c8ff" },
-  { code: "VM", label: "Virtualization", subtitle: "VirtualBox · VMware · KVM", color: "#00ff9d" },
+  { code: "VM", label: "Virtualization", subtitle: "VirtualBox · VMware · snapshots", color: "#00ff9d" },
   { code: "RX", label: "React + Node", subtitle: "full-stack · REST APIs", color: "#ff6b35" },
   { code: "PY", label: "Python", subtitle: "Django · Flask · scripting", color: "#a855f7" },
+  { code: "AN", label: "Ansible", subtitle: "playbooks · configuration · user provisioning", color: "#00ff9d" },
+  { code: "CI", label: "CI/CD", subtitle: "GitHub Actions · GitLab CI", color: "#00c8ff" },
+  { code: "NW", label: "Networking", subtitle: "DNS · DHCP · NAT", color: "#ff6b35" },
+  { code: "SC", label: "Security Hardening", subtitle: "SSH key-only · firewall · fail2ban · least-privilege sudo", color: "#a855f7" },
+  { code: "MC", label: "macOS Fleet", subtitle: "Jamf · managed Macs", color: "#00c8ff" },
+  { code: "KB", label: "Kubernetes", subtitle: "CKA in progress", color: "#00ff9d" },
+  { code: "LG", label: "LangGraph", subtitle: "stateful agents · tool calling · structured outputs", color: "#a855f7" },
+  { code: "ML", label: "Machine Learning", subtitle: "scikit-learn · XGBoost · LightGBM", color: "#ff6b35" },
+  { code: "FA", label: "FastAPI", subtitle: "Python · REST APIs · pytest", color: "#00ff9d" },
+  { code: "DS", label: "Decision Science", subtitle: "causal inference · uplift modeling · contextual bandits", color: "#00c8ff" },
+  { code: "OP", label: "Optimization", subtitle: "OR-Tools · SimPy · Bayesian optimization", color: "#ff6b35" },
+  { code: "EV", label: "Evaluation", subtitle: "calibration · ablation studies · bootstrap CIs", color: "#a855f7" },
 ]
 
 export function Infrastructure() {

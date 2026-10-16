@@ -8,24 +8,40 @@ const projects = [
     type: "distributed systems",
     color: "#00ff9d",
     description:
-      "Centralized log monitoring ingesting ~10K events/min across microservices with Elasticsearch full-text search and ~25% storage reduction via configurable TTL archiving",
-    tags: ["Elasticsearch", "React", "Docker", "TTL"],
+      "Log monitoring for ~10K events/min with Elasticsearch full-text search, a React error trend dashboard, and TTL retention cutting stored log volume by ~25%",
+    tags: ["Elasticsearch", "React", "error trends", "TTL retention"],
   },
   {
     name: "QueryForge",
     type: "database engine",
     color: "#00c8ff",
     description:
-      "Lightweight SQL engine parsing SELECT/WHERE/JOIN on CSV datasets with ~92% correctness vs SQLite and ~35% faster queries via in-memory indexing",
-    tags: ["Python", "PLY parser", "SQL", "indexing"],
+      "SQL engine for CSV data with a PLY parser, cost-based optimization, and in-memory indexing, cutting execution time by ~35% and matching SQLite on ~92% of tested queries",
+    tags: ["Python", "PLY parser", "cost-based optimization", "in-memory indexing"],
   },
   {
     name: "CloudCache",
     type: "infrastructure",
     color: "#ff6b35",
     description:
-      "Fault-tolerant Redis-inspired distributed key-value store with Raft consensus, ~5K ops/sec, and Prometheus observability across replicated nodes",
-    tags: ["Raft", "Docker", "Prometheus"],
+      "Distributed key-value store with Raft leader election and replication at ~5K ops/sec, Docker services, and Prometheus tracking latency, replication delay, and node health",
+    tags: ["Raft", "Docker", "Prometheus", "replication"],
+  },
+  {
+    name: "DisruptionOS",
+    type: "agentic logistics recovery",
+    color: "#00ff9d",
+    description:
+      "Logistics-recovery agent for 50-stop schedules with versioned approvals and idempotent dispatch. Across 200 held-out simulations, achieved 90% on-time delivery versus 82% for a fixed workflow using the same optimizer and budgets",
+    tags: ["Stateful agents", "versioned approvals", "idempotency"],
+  },
+  {
+    name: "ExperimentPilot",
+    type: "autonomous experimentation",
+    color: "#00c8ff",
+    description:
+      "Bayesian experiment agent cutting total cost by 24% versus cost-aware Bayesian optimization across 30 held-out workloads, with both methods meeting quality and latency targets on 27/30 workloads",
+    tags: ["Bayesian optimization", "isolated trials", "metamorphic checks"],
   },
 ]
 

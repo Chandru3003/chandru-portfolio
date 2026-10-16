@@ -17,13 +17,27 @@ const education = [
     school: "University of Texas at Arlington",
     period: "Jan 2025 – Dec 2026",
     gpa: "GPA 3.83/4.00",
+    coursework: "Artificial Intelligence · Software Testing · Design & Analysis of Algorithms · Data Analysis & Modelling Techniques",
   },
   {
     degree: "B.Tech Information Technology",
     school: "Anna University (SVCE)",
     period: "Aug 2020 – Jun 2024",
     gpa: "GPA 4.00/4.00",
+    coursework: "Software Engineering · Operating Systems · Cloud Computing · Machine Learning",
   },
+]
+
+const certifications = [
+  { name: "AWS Certified Cloud Practitioner", detail: "AWS" },
+  { name: "Google IT Support Professional", detail: "Google" },
+  { name: "IBM Linux Command and Shell Scripting", detail: "IBM" },
+  { name: "Google Data Analytics", detail: "Google" },
+  { name: "Certified Kubernetes Administrator (in progress)", detail: "CKA in progress" },
+]
+
+const achievements = [
+  { name: "TECHNOPHILIA 2022, second place", detail: "SVM-based Parkinson's detection, 87% accuracy" },
 ]
 
 export function Skills() {
@@ -96,6 +110,22 @@ export function Skills() {
                   <span>{edu.period}</span>
                   <span className="text-[#00c8ff]">{edu.gpa}</span>
                 </div>
+                <div className="flex flex-wrap gap-4 text-xs text-[#4a6580] font-mono">
+                  <span>Coursework: {edu.coursework}</span>
+                </div>
+              </div>
+            ))}
+            <h3 className="font-mono text-lg text-[#4a6580] mb-6">certifications</h3>
+            {[...certifications, ...achievements].map((item, index) => (
+              <div
+                key={item.name}
+                className={`bg-[#0f1923] border border-[#1a2d40] rounded-lg p-5 transition-all duration-500 ${
+                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                }`}
+                style={{ transitionDelay: `${index * 200}ms` }}
+              >
+                <h4 className="font-mono text-[#00ff9d] text-sm mb-1">{item.name}</h4>
+                <p className="text-[#c9d8e8] mb-2">{item.detail}</p>
               </div>
             ))}
           </div>

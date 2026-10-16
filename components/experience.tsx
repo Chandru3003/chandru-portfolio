@@ -9,8 +9,8 @@ const experiences = [
     color: "#00ff9d",
     role: "Graduate Research Assistant – System Admin",
     description:
-      "Deployed and hardened 60+ lab machines across Linux/Windows for 200+ users. Manages InfoSec Lab on Rocky Linux 9 + VirtualBox. Automated workflows via shell scripting.",
-    chips: ["Rocky Linux", "VirtualBox", "Bash scripting", "security hardening"],
+      "Administered 60+ Linux hosts (Ubuntu, Rocky Linux 9), plus Windows and Jamf-managed Macs for 200+ users. Automated configuration and provisioning across 70 workstations with Ansible playbooks validated via GitLab CI, Bash/Python patching, and VirtualBox management, hardening systems with SSH key-only access, firewall rules, fail2ban, and least-privilege sudo. Deployed Prometheus and node_exporter on 100+ machines with Alertmanager to PagerDuty, tuned CPU thresholds to sustained usage, and documented log analysis, recovery procedures, and runbooks. In offline replays across 40 held-out incidents with five runs each, improved diagnostic success from 62% to 84% (+22 pp; 95% CI +12 to +32.5 pp), and used durable tool receipts and idempotency keys to improve interrupted-workflow recovery from 39/40 to 40/40 with zero duplicate remediation requests on failure-injection reruns.",
+    chips: ["Ansible", "GitLab CI", "Prometheus", "PagerDuty", "Rocky Linux", "VirtualBox", "fail2ban", "Jamf", "Stateful agents", "idempotency"],
   },
   {
     period: "Jan – Apr 2024",
@@ -18,8 +18,8 @@ const experiences = [
     color: "#00c8ff",
     role: "Software Engineer Intern",
     description:
-      "Built React.js CRM frontend with PostgreSQL/MongoDB backends. Containerized full deployment pipeline with Docker. ~25% efficiency gain in loan processing.",
-    chips: ["React.js", "PostgreSQL", "Docker", "MongoDB"],
+      "Automated loan processing via React.js components and CRM APIs on PostgreSQL/MongoDB, achieving ~25% efficiency gains, and integrated Dockerized Python APIs. Built loan approval and risk models comparing Logistic Regression and XGBoost, delivering ~12% higher accuracy, and validated CRM/database workflows before release. On 1,000 held-out synthetic applications under assumed 4:1 false-approval/rejection penalties, an isotonic-calibrated XGBoost model reduced expected decision cost by 18% (95% CI 6.9% to 28.4%) versus Logistic Regression. Piloted a stateful CRM assistant with four volunteer reviewers across 80 synthetic cases, reducing median review time from 8 to 6 minutes (25%), with 95% agreement with predefined eligibility-rule references in both conditions.",
+    chips: ["React.js", "PostgreSQL", "Docker", "MongoDB", "Python APIs", "Logistic Regression", "XGBoost"],
   },
   {
     period: "Aug – Sep 2023",
@@ -27,8 +27,8 @@ const experiences = [
     color: "#ff6b35",
     role: "Software Engineer Intern",
     description:
-      "Full-stack automobile price estimator in Node.js + React + PostgreSQL. Regression-based prediction with ~15% stability improvement via hyperparameter tuning.",
-    chips: ["Node.js", "React", "PostgreSQL", "Python"],
+      "Delivered a Node.js/React.js/PostgreSQL price estimation prototype supporting ~50 daily test scenarios and passing 50 synthetic workflow tests for input validation, Python inference, price retrieval, and persisted reviewer adjustments. Tuned a Python regression model with NumPy/Pandas and hyperparameter optimization, reducing MAE by ~15%. On 200 held-out synthetic profiles generated from depreciation rules and noise, gradient boosting achieved 15% lower MAE than ridge regression (95% paired-bootstrap CI 13.0% to 17.0% reduction). Set up GitHub Actions CI/CD with Docker-based API and database checks, reproducible model-service images, and API endpoints with server-side validation.",
+    chips: ["Node.js", "React.js", "PostgreSQL", "Python", "NumPy", "Pandas", "GitHub Actions", "Docker"],
   },
 ]
 

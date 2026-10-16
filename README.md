@@ -6,7 +6,7 @@ Live at: https://chandrasekar-vasan-portfolio.vercel.app/
 
 ## Tech Stack
 
-- [Next.js 14](https://nextjs.org) — React framework
+- [Next.js 16](https://nextjs.org), React framework
 - [Tailwind CSS](https://tailwindcss.com) — styling
 - [TypeScript](https://www.typescriptlang.org) — type safety
 - Vanilla JS — canvas animations, IntersectionObserver, typewriter effect
@@ -22,8 +22,8 @@ Live at: https://chandrasekar-vasan-portfolio.vercel.app/
 ## Getting Started
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view locally.
@@ -36,14 +36,19 @@ app/
   layout.tsx        # root layout
   globals.css       # global styles + animations
 components/
-  Hero.tsx
-  Terminal.tsx
-  InfraGrid.tsx
-  Projects.tsx
-  Experience.tsx
-  Footer.tsx
+  hero.tsx
+  terminal.tsx
+  infrastructure.tsx
+  skills.tsx
+  projects.tsx
+  experience.tsx
+  footer.tsx
+  topbar.tsx
+  animated-background.tsx
 public/
-  resume.pdf        # resume download
+  resume.pdf        # original resume
+  resume-infra.pdf  # infrastructure resume download
+  resume-ai.pdf     # AI engineering resume download
 ```
 
 ## Deployment

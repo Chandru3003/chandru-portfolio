@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-center sm:text-left">
           <p className="font-mono text-sm text-[#4a6580]">
-            © 2025 chandrasekar vasan ·{" "}
+            © 2026 chandrasekar vasan ·{" "}
             <a
               href="mailto:chandrasekarvasan2002@gmail.com"
               className="text-[#c9d8e8] hover:text-[#00ff9d] transition-colors"

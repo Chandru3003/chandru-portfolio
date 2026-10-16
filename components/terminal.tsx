@@ -21,7 +21,11 @@ const terminalSequence: TerminalLine[] = [
   { type: "output", text: "queryforge     UP ✓", color: "#00c8ff" },
   { type: "output", text: "cloudcache     UP ✓", color: "#ff6b35" },
   { type: "command", text: "$ uptime" },
-  { type: "output", text: "200+ users · 60+ machines", color: "#00ff9d" },
+  { type: "output", text: "200+ users · 60+ Linux hosts", color: "#00ff9d" },
+  { type: "command", text: "$ cat monitoring.txt" },
+  { type: "output", text: "100+ machines · Alertmanager to PagerDuty", color: "#00c8ff" },
+  { type: "command", text: "$ cat ai-evaluation.txt" },
+  { type: "output", text: "Offline replays: 62% to 84% success", color: "#00ff9d" },
 ]
 
 export function Terminal() {

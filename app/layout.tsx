@@ -15,10 +15,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Chandrasekar Vasan | Full Stack Developer · SRE · System Administrator',
-  description: 'Personal portfolio of Chandrasekar Vasan (Chandru) - MS CS @ UTA. Building systems that scale, shipping code that lasts, and running infrastructure that never sleeps.',
+  title: 'Chandrasekar Vasan | AI Engineering · SRE · System Administrator',
+  description: 'Personal portfolio of Chandrasekar Vasan (Chandru), MS CS @ UTA. Stateful AI agents, machine learning, Linux administration, Ansible automation, Prometheus monitoring, CI/CD, and virtualization.',
   generator: 'v0.app',
-  keywords: ['Full Stack Developer', 'SRE', 'System Administrator', 'DevOps', 'Linux', 'Docker', 'React', 'Node.js'],
+  keywords: ['AI Engineering', 'Machine Learning', 'Stateful Agents', 'LangGraph', 'XGBoost', 'System Administrator', 'Linux Administration', 'Ansible', 'Prometheus', 'CI/CD', 'GitHub Actions', 'GitLab CI', 'Virtualization', 'VirtualBox', 'SRE', 'Docker', 'PagerDuty'],
   authors: [{ name: 'Chandrasekar Vasan' }],
   icons: {
     icon: [
