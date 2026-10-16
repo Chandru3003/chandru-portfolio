@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Terminal } from "./terminal"
-import { Github, Linkedin, FileText } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 
 export function Hero() {
   const [displayedName, setDisplayedName] = useState("")
@@ -71,24 +71,6 @@ export function Hero() {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
-              <a
-                href="/resume-infra.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#00ff9d] text-[#050510] font-mono text-sm font-bold rounded-md hover:bg-[#00ff9d]/90 transition-colors"
-              >
-                <FileText className="w-4 h-4" />
-                ./resume-infra.pdf
-              </a>
-              <a
-                href="/resume-ai.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#00ff9d] text-[#050510] font-mono text-sm font-bold rounded-md hover:bg-[#00ff9d]/90 transition-colors"
-              >
-                <FileText className="w-4 h-4" />
-                ./resume-ai.pdf
-              </a>
               <a
                 href="https://github.com/Chandru3003"
                 target="_blank"
