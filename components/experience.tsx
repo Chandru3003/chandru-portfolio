@@ -22,7 +22,7 @@ const experiences = [
     chips: ["React.js", "PostgreSQL", "Docker", "MongoDB", "Python APIs", "Logistic Regression", "XGBoost"],
   },
   {
-    period: "Aug – Sep 2023",
+    period: "Jan 2023 – Dec 2023",
     company: "Kun Auto Co Pvt Ltd",
     color: "#ff6b35",
     role: "Software Engineer Intern",
